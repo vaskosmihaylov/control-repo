@@ -1,9 +1,231 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T09:54:11.967Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.3.6" etag="ykByGmny8qeDNU-Vants" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T10:56:30.293Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="jYUC1JMHcmvkE4FY4TXt" version="21.3.6" type="github">
   <diagram name="Page-1" id="VgHQf6VEYeUXlcangb7G">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="S4DYgx_YL4PgZNTfout2-36" value="Generate Confluence Report" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="655" width="858" height="511" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-37" value="Create Confluence Page for CVE" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1108" width="244" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-38" value="create jira issue:&#xa;&#xa;    - only include agents where the CVE is still VALID (not fixed)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="192" y="1008" width="448" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-39" value="Update Confluence Page for CVE" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="844" width="248" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-40" value="update jira issue" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="112" y="680" width="135" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-41" value="Archive Confluence Page for CVE" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="448" y="1108" width="250" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-42" value="close jira issue" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1016" width="121" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-43" target="S4DYgx_YL4PgZNTfout2-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.46;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-43" target="S4DYgx_YL4PgZNTfout2-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.553;entryY=-0.176;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-43" target="S4DYgx_YL4PgZNTfout2-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-43" value="Entry point Apinator.rb" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="-400" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-44" value="Config.rb " style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-110" width="150" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-45" value="Jira.rb" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="285" y="18" width="94" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-46" value="Collect all agents from Wazuh API" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="208" y="137" width="256" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-47" value="Collect all CVE data&#xa;&#xa;    - merge all CVE data together the agent info are a array inside the cve data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="56" y="240" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-48" value="search for existing jira issue:&#xa;    &#xa;    - check the issue title against the CVE title&#xa;    - match NOT closed issues&#xa;    - match issue type &#39;cve&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="175" y="359" width="323" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-49" value="exists?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="289" y="491" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-50" value="Job done - END" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="917" y="1108" width="141" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-51" value="all hosts fixed?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="913" y="783" width="155" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-54" value="Runs our own jira integration script for wazuh&#xa;&#xa;    - should be independent from any &#39;wazuh integration&#39;" style="curved=1;startArrow=none;endArrow=block;exitX=0.505859375;exitY=1;entryX=0.5021514892578125;entryY=0;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-45" target="S4DYgx_YL4PgZNTfout2-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-55" value="for each agent" style="curved=1;startArrow=none;endArrow=block;exitX=0.5021514892578125;exitY=1;entryX=0.5009835379464286;entryY=0;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-46" target="S4DYgx_YL4PgZNTfout2-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-56" value="for each cve" style="curved=1;startArrow=none;endArrow=block;exitX=0.5009835379464286;exitY=1;entryX=0.50015721749226;entryY=0;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-47" target="S4DYgx_YL4PgZNTfout2-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.50015721749226;exitY=1;entryX=0.5005345394736842;entryY=0;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-48" target="S4DYgx_YL4PgZNTfout2-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-58" value="no" style="curved=1;startArrow=none;endArrow=block;exitX=0.9862558543069697;exitY=1.0050986842105263;entryX=0.5000871930803571;entryY=-0.0078125;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-49" target="S4DYgx_YL4PgZNTfout2-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="416" y="621" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-59" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7535400390625;exitY=0.9921875;entryX=-0.0028535017730496456;entryY=0.23527706795677847;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-38" target="S4DYgx_YL4PgZNTfout2-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="643" y="1083" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-60" value="yes" style="curved=1;startArrow=none;endArrow=block;exitX=-0.0020148026315789476;exitY=0.7648432474743649;entryX=0.4961226851851852;entryY=0.014246323529411764;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-49" target="S4DYgx_YL4PgZNTfout2-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="179" y="621" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-61" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9951388888888889;exitY=0.7231386943406586;entryX=0.0004788306451612903;entryY=0.3300093003370384;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-40" target="S4DYgx_YL4PgZNTfout2-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="667" y="749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-62" value="yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.0004788306451612903;exitY=0.7369179369371068;entryX=0.49890237603305787;entryY=-0.011488970588235295;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-51" target="S4DYgx_YL4PgZNTfout2-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="973" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-63" value="no" style="curved=1;startArrow=none;endArrow=block;exitX=0.5008820564516129;exitY=1.0039314516129032;entryX=0.5073718760553867;entryY=-0.011488970588235295;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-51" target="S4DYgx_YL4PgZNTfout2-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="991" y="1083" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-64" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.695399018595041;exitY=0.9885110294117647;entryX=0.018385495820669038;entryY=-0.011488970588235295;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-42" target="S4DYgx_YL4PgZNTfout2-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="1083" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-65" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.32319423130580355;exitY=0.9921875;entryX=0.5022252817622951;entryY=-0.011488970588235295;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-38" target="S4DYgx_YL4PgZNTfout2-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="258" y="1083" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-66" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4961226851851852;exitY=1.0142463235294117;entryX=0.4999054939516129;entryY=0.0013786764705882354;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-40" target="S4DYgx_YL4PgZNTfout2-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-67" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.0010860020661161535;exitY=0.9885110294117647;entryX=0.5008125;entryY=-0.011488970588235295;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-42" target="S4DYgx_YL4PgZNTfout2-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="573" y="1083" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-70" value="Clients.yaml" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="786" y="-120" width="150" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-71" value="Passwords.yaml" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="-110" width="150" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-78" target="S4DYgx_YL4PgZNTfout2-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-78" value="Lib Directory" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-120" width="150" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-82" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.086;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-43" target="S4DYgx_YL4PgZNTfout2-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="616" y="-290" as="sourcePoint" />
+            <mxPoint x="776" y="-290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="695" y="10" />
+              <mxPoint x="1421" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-86" target="S4DYgx_YL4PgZNTfout2-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-86" value="specific functionality or integration" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="575" y="-19" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-92" value="Attach_file.rb" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="57" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-93" value="Birt.rb" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="57" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-94" value="Confluence.rb" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="67" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-96" value="Elastic.rb" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1051" y="67" as="targetPoint" />
+            <mxPoint x="616" y="8" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-99" value="Forti.rb" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-101" value="Grafana.rb" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="67" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
