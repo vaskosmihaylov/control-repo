@@ -1,26 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T10:56:30.293Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="jYUC1JMHcmvkE4FY4TXt" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T11:43:40.998Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BCkNLppspT6Y47-rTFMN" version="21.3.6" type="github">
   <diagram name="Page-1" id="VgHQf6VEYeUXlcangb7G">
     <mxGraphModel dx="2074" dy="2328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="S4DYgx_YL4PgZNTfout2-36" value="Generate Confluence Report" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="20" y="655" width="858" height="511" as="geometry" />
-        </mxCell>
-        <mxCell id="S4DYgx_YL4PgZNTfout2-37" value="Create Confluence Page for CVE" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="135" y="1108" width="244" height="34" as="geometry" />
+        <mxCell id="S4DYgx_YL4PgZNTfout2-36" value="" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="670" width="858" height="511" as="geometry" />
         </mxCell>
         <mxCell id="S4DYgx_YL4PgZNTfout2-38" value="create jira issue:&#xa;&#xa;    - only include agents where the CVE is still VALID (not fixed)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="192" y="1008" width="448" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="S4DYgx_YL4PgZNTfout2-39" value="Update Confluence Page for CVE" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="55" y="844" width="248" height="34" as="geometry" />
+        <mxCell id="S4DYgx_YL4PgZNTfout2-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.186;entryY=0.205;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-40" target="S4DYgx_YL4PgZNTfout2-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="S4DYgx_YL4PgZNTfout2-40" value="update jira issue" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="112" y="680" width="135" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="S4DYgx_YL4PgZNTfout2-41" value="Archive Confluence Page for CVE" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="448" y="1108" width="250" height="34" as="geometry" />
         </mxCell>
         <mxCell id="S4DYgx_YL4PgZNTfout2-42" value="close jira issue" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="690" y="1016" width="121" height="34" as="geometry" />
@@ -130,25 +124,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="S4DYgx_YL4PgZNTfout2-65" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.32319423130580355;exitY=0.9921875;entryX=0.5022252817622951;entryY=-0.011488970588235295;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-38" target="S4DYgx_YL4PgZNTfout2-37">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="258" y="1083" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="S4DYgx_YL4PgZNTfout2-66" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4961226851851852;exitY=1.0142463235294117;entryX=0.4999054939516129;entryY=0.0013786764705882354;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-40" target="S4DYgx_YL4PgZNTfout2-39">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="S4DYgx_YL4PgZNTfout2-67" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.0010860020661161535;exitY=0.9885110294117647;entryX=0.5008125;entryY=-0.011488970588235295;rounded=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-42" target="S4DYgx_YL4PgZNTfout2-41">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="573" y="1083" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="S4DYgx_YL4PgZNTfout2-70" value="Clients.yaml" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="786" y="-120" width="150" height="34" as="geometry" />
         </mxCell>
@@ -225,6 +200,30 @@
         </mxCell>
         <mxCell id="S4DYgx_YL4PgZNTfout2-101" value="Grafana.rb" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="67" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.186;entryY=0.342;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-105" target="S4DYgx_YL4PgZNTfout2-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-105" target="S4DYgx_YL4PgZNTfout2-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-105" value="parse the jira issue content for the agent list" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="112" y="760" width="135" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.187;entryY=0.489;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-108" target="S4DYgx_YL4PgZNTfout2-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-108" target="S4DYgx_YL4PgZNTfout2-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-108" value="update the jira issue agent list with the agent list from the wazuh api" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="101" y="850" width="159" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.116;entryY=0.619;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S4DYgx_YL4PgZNTfout2-111" target="S4DYgx_YL4PgZNTfout2-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4DYgx_YL4PgZNTfout2-111" value="generate the jira issue content base with the merged agent list (for the history of the cve" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="95" y="920" width="190" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
